@@ -40,7 +40,7 @@ input[type="email"]{
 input[type="submit"]{
     padding: 5px;
     margin-left: 35%;
-    margin-top: 3%;
+    margin-top: 10%;
     width: 20%;
     border: 1px solid teal;
     height: 2.7em;
@@ -108,8 +108,8 @@ textarea {
 
 .nav-links {
 	color: black;
-    margin-left: 55%;
-    top: 10vh;
+    margin-left: 50%;
+    top: 8vh;
 	position: absolute;
 	font-size: 16px ;
 }
@@ -265,6 +265,10 @@ a:hover {
     font-family: monospace;
 }
 
+#li-view a {
+	color: black;
+}
+
 
 #logo h1, #logo p {
 }
@@ -348,7 +352,7 @@ a:hover {
 
 #nav-links {
 	float: right;
-	width: 652px;
+	width: 670px;
 	height: 100px;
 	margin: 0px auto;
 	padding: 0px;
@@ -394,7 +398,7 @@ a:hover {
     padding-top: 40vh;
     font-size: 18px;
     font-family: cursive;
-    padding-left: 20%;
+    padding-left: 16%;
 }
 .menu-para {
 	padding-top: 4%;
@@ -675,4 +679,50 @@ a:hover {
 	margin-bottom: -40%;
     margin-top: 40%;
     text-align: center;
+}
+
+.myForm {
+	width: 40%;
+    border: 4px double black;
+    margin-left: 25%;
+    padding: 3%;
+    margin-top: 5%;
+	padding-left: 8%;
+	background: whitesmoke;
+}
+
+input[type="radio"]{
+    color: #171a35;
+	margin: 1%;
+	margin-top: 2%;
+    margin-left: 37%;
+}
+
+input[type="number"]{
+	text-align: center;
+	padding: .5em;
+	border-radius: 5px;
+	outline: none;
+	margin: 2%;
+	width: 20%;
+	font-family: monospace;
+}
+
+.myForm input[type="text"] {
+	float: left;
+	width: 50%;
+}
+
+input[type="number"]{
+	float: left;
+	margin-top: -1%;
+}
+
+/* .offer {
+	float: left;
+} */
+
+form p{
+	margin-top: 10%;
+    font-size: 18px;
 }
