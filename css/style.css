@@ -620,4 +620,17 @@ a:hover {
 	height: 20%;
 }
 
+.exp {
+	border: 1px solid black;
+	color: black;
+    padding: 1%;
+    float: right;
+    margin-top: 2%;
+    margin-right: 55%;
+}
 
+.exp:hover {
+	border-color: teal;
+	color: teal;
+	background: white;
+}
