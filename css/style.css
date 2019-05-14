@@ -634,3 +634,13 @@ a:hover {
 	color: teal;
 	background: white;
 }
+
+.mission {
+	width: 30%;
+	float: left;
+}
+
+.vision {
+	width: 30%;
+	float: right;
+}
