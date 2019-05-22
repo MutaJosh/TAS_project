@@ -498,6 +498,13 @@ a:hover {
 	text-align: center;
 }
 
+.navbar-toggler {
+		margin: 2%;
+    margin-left: 67%;
+		outline: none;
+		background: azure;
+}
+
 
 
 
